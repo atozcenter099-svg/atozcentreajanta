@@ -69,7 +69,7 @@ footer{background:#12351f;color:white;text-align:center;padding:30px 5%;margin-t
 <h2>🛍️ All Categories</h2>
 
 <div class="grid">
-<div class="cat"><img src="./IMG_20260906_090705.png" alt="Attar" class="cat-img">Attar</div>
+<div class="cat" onclick="showAttar()"> <img src="./IMG_20260906_090705.png" alt="Attar" class="cat-img">Attar</div>
 <div class="cat"><span>⌚</span>Watch</div>
 <div class="cat"><span>🧣</span>Dasti Rumal</div>
 <div class="cat"><span>🧢</span>Topi</div>
@@ -193,6 +193,18 @@ footer{background:#12351f;color:white;text-align:center;padding:30px 5%;margin-t
 <p>Har Zaroorat Ka Samaan, Ek Hi Jagah — Munasib Daam Ke Saath</p>
 <p>© 2026 A To Z Centre. All Rights Reserved.</p>
 </footer>
+<div id="attarProducts" style="display:none;">
+  <h2>Attar Products</h2>
+  <div class="cat">
+    <img src="./Gemini_Generated_Image_cowtwkcowtwkcowt.png" alt="Attar Product" class="cat-img">
+    <p>Attar</p>
+  </div>
+</div>
 
+<script>
+function showAttar() {
+  document.getElementById("attarProducts").style.display = "block";
+}
+</script>
 </body>
 </html>
